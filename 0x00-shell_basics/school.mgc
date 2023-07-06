@@ -1,2 +1,2 @@
-0 string SCHOOL School data file
-
+#!/bin/bash
+file --compile school.mgc -o school.magic
