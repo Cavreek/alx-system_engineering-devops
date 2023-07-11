@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -E '^[13579]\s'
+nl -ba | grep -E '^[13579]\s'
