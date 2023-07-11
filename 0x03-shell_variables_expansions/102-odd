@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n -v '^$' . | grep -E '^[[:digit:]]+:[[:digit:]]+:' | cut -d ':' -f 2- | head -n +1
+ls -1 | nl -ba | grep -E '^[13579]\s'
