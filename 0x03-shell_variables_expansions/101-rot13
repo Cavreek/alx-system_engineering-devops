@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n -v '^$' input_file | grep -E '^[[:digit:]]+:[[:digit:]]+:' | cut -d ':' -f 2- | head -n +1
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
