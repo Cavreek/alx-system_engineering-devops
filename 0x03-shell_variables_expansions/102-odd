@@ -1,2 +1,2 @@
 #!/bin/bash
-nl -ba | grep -E '^[13579]\s'
+paste - - | cut -f1
